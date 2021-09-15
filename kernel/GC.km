@@ -1,0 +1,134 @@
+{
+    "root": {
+        "data": {
+            "id": "bydttx5xx0w0",
+            "created": 1573552565604,
+            "text": "GC"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bxcae36xbfs0",
+                    "created": 1569740005413,
+                    "text": "GC 常用策略",
+                    "layout": null,
+                    "color": "#000000"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c7ajn1vc1dk0",
+                            "created": 1606124562289,
+                            "text": "追踪（Tracing）"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7ajnmgj9fs0",
+                                    "created": 1606124607107,
+                                    "text": "基本算法 mark-and-sweep"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7ajo0008js0",
+                                            "created": 1606124636582,
+                                            "text": "mark，从 root 开始进行树遍历，每个访问的对象标注为「使用中」"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7ajnzzzzns0",
+                                            "created": 1606124636582,
+                                            "text": "sweep，扫描整个内存区域，对于标注为「使用中」的对象去掉该标志，对于没有该标注的对象直接回收掉"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7ajndd939s0",
+                            "created": 1606124587317,
+                            "text": "引用计数（Reference counting）"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c7ajovl7vy00",
+                            "created": 1606124705345,
+                            "text": "逃逸分析（Escape_analysis）"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bxcafp4d5mw0",
+                    "created": 1569740131512,
+                    "text": "顺序查找",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bxcafwuazds0",
+                    "created": 1569740148318,
+                    "text": "Block 查找",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bxcafsygmgw0",
+                    "created": 1569740139862,
+                    "text": "树表查找",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bxcaflvje8w0",
+                    "created": 1569740124448,
+                    "text": "插值查找",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bxcafhzcn4o0",
+                    "created": 1569740115971,
+                    "text": "哈希查找",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bxcafekiv3k0",
+                    "created": 1569740108544,
+                    "text": "相关链接",
+                    "layout": null,
+                    "layout_right_offset": {
+                        "x": -4,
+                        "y": -1
+                    },
+                    "note": "https://liujiacai.net/categories/aha-computer/\n\n"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "classic",
+    "version": "1.4.43"
+}
